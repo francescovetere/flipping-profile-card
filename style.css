@@ -31,7 +31,13 @@ body {
   place-items: center;
 
   min-height: 100vh;
+
   background-color: var(--clr-light-cyan);
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 600px, 500px;
+  background-position: top -200px left -100px, bottom -300px right -200px;
 
   font-family: var(--ff-primary);
   font-weight: var(--fw-400);
@@ -39,6 +45,7 @@ body {
 
 .card {
   width: 400px;
+  margin-inline: 3em;
   aspect-ratio: 4 / 3;
   background-color: transparent;
 
