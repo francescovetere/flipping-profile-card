@@ -110,7 +110,7 @@ body {
   position: relative;
 
   min-height: 130px;
-  background-image: url(/images/bg-pattern-card.svg);
+  background-image: url(images/bg-pattern-card.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -129,7 +129,7 @@ body {
 
   width: 130px;
   aspect-ratio: 1;
-  background-image: url(/images/image-francesco.png);
+  background-image: url(images/image-francesco.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
